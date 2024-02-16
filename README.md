@@ -1,4 +1,3 @@
-Pizza Quattro Formaggie
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +8,7 @@ Pizza Quattro Formaggie
       model-viewer {
         width: 100%;
         height: 250px;
+        position: relative; /* Poziționare relativă pentru a poziționa butonul AR în mod absolut în raport cu model-viewer */
       }
       @keyframes levitate {
         0%, 100% {
@@ -27,16 +27,20 @@ Pizza Quattro Formaggie
         border-radius: 4px;
         border: none;
         position: absolute;
-        bottom: 16px;
-        right: 16px;
+        top: 16px; /* Mutat deasupra modelului */
+        right: 16px; /* În colțul din dreapta */
+      }
+      .ingredients {
+        text-align: left; /* Aliniază textul cu ingredientele pe partea stângă */
+        padding: 20px;
       }
     </style>
 </head>
 <body>
 
-<div style="padding: 20px; text-align: center;">
+<div class="ingredients">
     <h2><a href="https://glovoapp.com/ro/ro/timisoara/pizzeria-celentano-timisoara-tim/" target="_blank">Comandă acum: Pizzeria Celentano Timișoara</a></h2>
-    <p>100 g di formaggio grattugiato stagionato vaccino.<br>
+    <p>Pizza Quattro Formaggi<br>100 g di formaggio grattugiato stagionato vaccino.<br>
     100 g di Pecorino grattugiato.<br>
     80 g di ricotta.<br>
     40 g di Gorgonzola.<br>
