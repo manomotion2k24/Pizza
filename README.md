@@ -1,14 +1,15 @@
-Pizza Quattro Formaggi
+Pizza Quattro Formaggie
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comandă acum: Pizzeria Celentano Timișoara</title>
+    <title>Comandă acum prin Glovo:
+    Pizzeria Celentano Timișoara</title>
     <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
     <style>
       model-viewer {
         width: 100%;
-        height: 500px;
+        height: 250px;
       }
       @keyframes levitate {
         0%, 100% {
@@ -46,7 +47,7 @@ Pizza Quattro Formaggi
     2 cucchiai di olio d'oliva.</p>
 </div>
 
-<model-viewer src="pizza.glb" ios-src="pizza.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls auto-rotate environment-image="neutral" shadow-intensity="1" alt="Un modello 3D di pizza" min-camera-orbit="auto 80deg auto" max-camera-orbit="auto 80deg auto">
+<model-viewer src="pizza.glb" ios-src="pizza.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls auto-rotate environment-image="neutral" shadow-intensity="1" alt="Un modello 3D di pizza" min-camera-orbit="30deg auto auto" max-camera-orbit="auto 90deg auto">
   <button slot="ar-button" class="ar-button">
       <span class="levitate">👋</span> Activează modul AR
   </button>
