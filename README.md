@@ -8,7 +8,7 @@ Pizza Quattro Formaggie
     <style>
       model-viewer {
         width: 100%;
-        height: 500px;
+        height: 250px;
       }
       @keyframes levitate {
         0%, 100% {
