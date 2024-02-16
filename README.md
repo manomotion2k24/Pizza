@@ -46,7 +46,7 @@ Pizza Quattro Formaggie
     2 cucchiai di olio d'oliva.</p>
 </div>
 
-<model-viewer src="pizza.glb" ios-src="pizza.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls auto-rotate environment-image="neutral" shadow-intensity="1" alt="Un modello 3D di pizza" min-camera-orbit="auto 90deg auto" max-camera-orbit="auto 180deg auto">
+<model-viewer src="pizza.glb" ios-src="pizza.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls auto-rotate environment-image="neutral" shadow-intensity="1" alt="Un modello 3D di pizza" min-camera-orbit="auto 90deg auto" max-camera-orbit="auto 45deg auto">
   <button slot="ar-button" class="ar-button">
       <span class="levitate">👋</span> Activează modul AR
   </button>
