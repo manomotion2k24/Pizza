@@ -1,4 +1,4 @@
-Pizza Quattro Formaggi
+Pizza Quattro Formaggie
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,18 @@ Pizza Quattro Formaggi
       model-viewer {
         width: 100%;
         height: 500px;
+      }
+      @keyframes levitate {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+      .levitate {
+        display: inline-block;
+        animation: levitate 1s ease-in-out infinite;
       }
     </style>
 </head>
@@ -26,8 +38,11 @@ Pizza Quattro Formaggi
     2 cucchiai di olio d'oliva.</p>
 </div>
 
-<model-viewer src="pizza.glb" ios-src="pizza.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls auto-rotate environment-image="neutral" shadow-intensity="1" alt="Un modello 3D di pizza"></model-viewer>
+<model-viewer src="pizza.glb" ios-src="pizza.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls auto-rotate environment-image="neutral" shadow-intensity="1" alt="Un modello 3D di pizza">
+  <button slot="ar-button" class="ar-button" style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; ">
+      <span class="levitate">👋</span> Activează modul AR
+  </button>
+</model-viewer>
 
 </body>
 </html>
-
