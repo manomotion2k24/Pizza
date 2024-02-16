@@ -3,7 +3,7 @@ Pizza Quattro Formaggie
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visualizza modello 3D</title>
+    <title>Comandă acum: Pizzeria Celentano Timișoara</title>
     <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
     <style>
       model-viewer {
@@ -22,12 +22,20 @@ Pizza Quattro Formaggie
         display: inline-block;
         animation: levitate 1s ease-in-out infinite;
       }
+      .ar-button {
+        background-color: white;
+        border-radius: 4px;
+        border: none;
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+      }
     </style>
 </head>
 <body>
 
 <div style="padding: 20px; text-align: center;">
-    <h2>Ingredienti per la pizza:</h2>
+    <h2><a href="https://glovoapp.com/ro/ro/timisoara/pizzeria-celentano-timisoara-tim/" target="_blank">Comandă acum: Pizzeria Celentano Timișoara</a></h2>
     <p>100 g di formaggio grattugiato stagionato vaccino.<br>
     100 g di Pecorino grattugiato.<br>
     80 g di ricotta.<br>
@@ -39,7 +47,7 @@ Pizza Quattro Formaggie
 </div>
 
 <model-viewer src="pizza.glb" ios-src="pizza.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls auto-rotate environment-image="neutral" shadow-intensity="1" alt="Un modello 3D di pizza">
-  <button slot="ar-button" class="ar-button" style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; ">
+  <button slot="ar-button" class="ar-button">
       <span class="levitate">👋</span> Activează modul AR
   </button>
 </model-viewer>
