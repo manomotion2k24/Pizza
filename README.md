@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+Pizza Quattro Formaggie
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,9 @@
     <title>Comandă acum prin Glovo: Pizzeria Celentano Timișoara</title>
     <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
     <style>
+      body {
+        margin-top: 0px; /* Reduce spațiul deasupra titlului */
+      }
       model-viewer {
         width: 100%;
         height: 250px;
@@ -30,13 +33,13 @@
         top: 8px;
         right: 8px;
       }
-      
-      /* Stiluri adăugate */
+
       h2 {
         font-size: 50%; /* Face titlul de 2 ori mai mic */
+        margin-top: 0; /* Elimină spațiul suplimentar deasupra titlului */
       }
       p {
-        font-size: 50%; /* Face textul cu ingrediente cu 50% mai mic */
+        font-size: 125%; /* Face textul cu ingrediente cu 25% mai mare */
       }
     </style>
 </head>
@@ -54,7 +57,7 @@
     2 cucchiai di olio d'oliva.</p>
 </div>
 
-<model-viewer src="pizza.glb" ios-src="pizza.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls auto-rotate environment-image="neutral" shadow-intensity="5" alt="Un modello 3D di pizza" min-camera-orbit="auto 45deg auto" max-camera-orbit="auto 90deg auto">
+<model-viewer src="pizza.glb" ios-src="pizza.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls auto-rotate environment-image="neutral" shadow-intensity="2" alt="Un modello 3D di pizza" min-camera-orbit="auto 45deg auto" max-camera-orbit="auto 90deg auto">
   <button slot="ar-button" class="ar-button">
       <span class="levitate">👋</span> Activează modul AR
   </button>
