@@ -1,4 +1,4 @@
-Pizza Quattro Formaggie
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,6 +29,14 @@ Pizza Quattro Formaggie
         position: absolute;
         top: 8px;
         right: 8px;
+      }
+      
+      /* Stiluri adăugate */
+      h2 {
+        font-size: 50%; /* Face titlul de 2 ori mai mic */
+      }
+      p {
+        font-size: 50%; /* Face textul cu ingrediente cu 50% mai mic */
       }
     </style>
 </head>
