@@ -35,7 +35,7 @@
       }
 
       h2 {
-        font-size: 25%; /* Păstrează titlul de 2 ori mai mic */
+        font-size: 100%; /* Păstrează titlul de 2 ori mai mic */
         margin: -20px 0 0 0; /* Mută titlul mai sus prin aplicarea unui margin negativ */
       }
       h3 {
@@ -53,6 +53,12 @@
 <div style="text-align: left; padding: 15px;">
     <h2><a href="https://glovoapp.com/ro/ro/timisoara/pizzeria-celentano-timisoara-tim/" target="_blank">Comandă acum prin Glovo: Pizzeria Celentano Timișoara</a></h2>
     <h3>Pizza Quattro Formaggi</h3>
+    <!-- Modelul 3D este acum plasat aici, între titlu și lista de ingrediente -->
+    <model-viewer src="pizza.glb" ios-src="pizza.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls auto-rotate environment-image="neutral" shadow-intensity="5" alt="Un modello 3D di pizza" min-camera-orbit="auto 45deg auto" max-camera-orbit="auto 90deg auto">
+      <button slot="ar-button" class="ar-button">
+          <span class="levitate">👋</span> Activează modul AR
+      </button>
+    </model-viewer>
     <p>100 g di formaggio grattugiato stagionato vaccino.<br>
     100 g di Pecorino grattugiato.<br>
     80 g di ricotta.<br>
@@ -62,12 +68,6 @@
     40 g di Parmigiano.<br>
     2 cucchiai di olio d'oliva.</p>
 </div>
-
-<model-viewer src="pizza.glb" ios-src="pizza.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls auto-rotate environment-image="neutral" shadow-intensity="5" alt="Un modello 3D di pizza" min-camera-orbit="auto 45deg auto" max-camera-orbit="auto 90deg auto">
-  <button slot="ar-button" class="ar-button">
-      <span class="levitate">👋</span> Activează modul AR
-  </button>
-</model-viewer>
 
 </body>
 </html>
