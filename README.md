@@ -1,4 +1,3 @@
-Pizza Quattro Formaggie
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +6,8 @@ Pizza Quattro Formaggie
     <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
     <style>
       body {
-        margin-top: 0px; /* Reduce spațiul deasupra titlului */
+        margin: 0; /* Asigură-te că nu există margini implicite */
+        padding: 0; /* Elimină orice padding implicit */
       }
       model-viewer {
         width: 100%;
@@ -35,11 +35,16 @@ Pizza Quattro Formaggie
       }
 
       h2 {
-        font-size: 50%; /* Face titlul de 2 ori mai mic */
-        margin-top: 0; /* Elimină spațiul suplimentar deasupra titlului */
+        font-size: 50%; /* Păstrează titlul de 2 ori mai mic */
+        margin: -20px 0 0 0; /* Mută titlul mai sus prin aplicarea unui margin negativ */
+      }
+      h3 {
+        font-size: 150%; /* Face textul "Pizza Quattro Formaggi" mai mare */
+        font-weight: bold; /* Îngroașă textul */
+        margin: 20px 0 10px 0; /* Adaugă un spațiu deasupra și sub titlul secțiunii */
       }
       p {
-        font-size: 125%; /* Face textul cu ingrediente cu 25% mai mare */
+        font-size: 110%; /* Face textul cu ingrediente puțin mai mic */
       }
     </style>
 </head>
@@ -47,6 +52,7 @@ Pizza Quattro Formaggie
 
 <div style="text-align: left; padding: 15px;">
     <h2><a href="https://glovoapp.com/ro/ro/timisoara/pizzeria-celentano-timisoara-tim/" target="_blank">Comandă acum prin Glovo: Pizzeria Celentano Timișoara</a></h2>
+    <h3>Pizza Quattro Formaggi</h3>
     <p>100 g di formaggio grattugiato stagionato vaccino.<br>
     100 g di Pecorino grattugiato.<br>
     80 g di ricotta.<br>
@@ -57,7 +63,7 @@ Pizza Quattro Formaggie
     2 cucchiai di olio d'oliva.</p>
 </div>
 
-<model-viewer src="pizza.glb" ios-src="pizza.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls auto-rotate environment-image="neutral" shadow-intensity="2" alt="Un modello 3D di pizza" min-camera-orbit="auto 45deg auto" max-camera-orbit="auto 90deg auto">
+<model-viewer src="pizza.glb" ios-src="pizza.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls auto-rotate environment-image="neutral" shadow-intensity="5" alt="Un modello 3D di pizza" min-camera-orbit="auto 45deg auto" max-camera-orbit="auto 90deg auto">
   <button slot="ar-button" class="ar-button">
       <span class="levitate">👋</span> Activează modul AR
   </button>
