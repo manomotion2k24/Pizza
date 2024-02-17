@@ -35,7 +35,7 @@
       }
 
       h2 {
-        font-size: 50%; /* Păstrează titlul de 2 ori mai mic */
+        font-size: 100%; /* Păstrează titlul de 2 ori mai mic */
         margin: -20px 0 0 0; /* Mută titlul mai sus prin aplicarea unui margin negativ */
       }
       h3 {
@@ -44,7 +44,7 @@
         margin: 20px 0 10px 0; /* Adaugă un spațiu deasupra și sub titlul secțiunii */
       }
       p {
-        font-size: 110%; /* Face textul cu ingrediente puțin mai mic */
+        font-size: 100%; /* Face textul cu ingrediente puțin mai mic */
       }
     </style>
 </head>
