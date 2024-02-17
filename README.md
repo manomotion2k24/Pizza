@@ -35,7 +35,7 @@
       }
 
       h2 {
-        font-size: 100%; /* Păstrează titlul de 2 ori mai mic */
+        font-size: 25%; /* Păstrează titlul de 2 ori mai mic */
         margin: -20px 0 0 0; /* Mută titlul mai sus prin aplicarea unui margin negativ */
       }
       h3 {
