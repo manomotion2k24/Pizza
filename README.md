@@ -46,6 +46,10 @@
       p {
         font-size: 100%; /* Face textul cu ingrediente puțin mai mic */
       }
+      /* Stil pentru hyperlink-ul îngroșat */
+      .bold-link {
+        font-weight: bold; /* Îngroașă textul */
+      }
     </style>
 </head>
 <body>
@@ -53,7 +57,6 @@
 <div style="text-align: left; padding: 15px;">
     <h2><a href="https://glovoapp.com/ro/ro/timisoara/pizzeria-celentano-timisoara-tim/" target="_blank">Comandă acum prin Glovo: Pizzeria Celentano Timișoara</a></h2>
     <h3>Pizza Quattro Formaggi</h3>
-    <!-- Modelul 3D este acum plasat aici, între titlu și lista de ingrediente -->
     <model-viewer src="pizza.glb" ios-src="pizza.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls auto-rotate environment-image="neutral" shadow-intensity="5" alt="Un modello 3D di pizza" min-camera-orbit="auto 45deg auto" max-camera-orbit="auto 90deg auto">
       <button slot="ar-button" class="ar-button">
           <span class="levitate">👋</span> Activează modul AR
@@ -67,6 +70,8 @@
     10 foglie di origano.<br>
     40 g di Parmigiano.<br>
     2 cucchiai di olio d'oliva.</p>
+    <!-- Hyperlink adăugat sub lista de ingrediente -->
+    <p><a href="https://manomotion2k24.github.io/ManoTheQRking/" class="bold-link" target="_blank">Pizza Quattro Stagioni</a></p>
 </div>
 
 </body>
