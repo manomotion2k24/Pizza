@@ -71,7 +71,7 @@
     40 g di Parmigiano.<br>
     2 cucchiai di olio d'oliva.</p>
     <!-- Hyperlink adăugat sub lista de ingrediente -->
-    <p><a href="https://manomotion2k24.github.io/ManoTheQRking/" class="bold-link" target="_blank">Pizza Quattro Stagioni</a></p>
+    <p><a href="https://manomotion2k24.github.io/ManoTheQRking/" class="bold-link" target="_blank">Nike Free Matcon</a></p>
 </div>
 
 </body>
