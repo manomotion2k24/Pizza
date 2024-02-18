@@ -77,7 +77,6 @@
 
 </body>
 </html>
-<input type="range" class="glow" style="--val: 50" value="50" min="0" max="100" oninput="this.style='--val:'+this.value" />
 body {
   display: flex;
   align-items: center;
