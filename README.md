@@ -77,3 +77,4 @@
 
 </body>
 </html>
+<iframe style="width:100%; height: 190px;" frameborder="0" scrolling="no" src="https://oraexacta.eu/o/ora-exacta.php"></iframe>
